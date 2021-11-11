@@ -300,3 +300,180 @@ footer {
   line-height: 1.4rem;
   font-size: 0.9rem;
 }
+
+@media only screen and (max-width : 599px) {
+  #news {
+    width: 96%;
+    margin: 14% auto 14%;
+  }
+
+  #business {
+    width: 96%;
+    margin-bottom: 14%;
+  }
+
+  .header-container {
+    width: 96%;
+    padding: 2%;
+  }
+
+  .header-left {
+    flex-direction: column;
+  }
+  
+  .header-left-menu {
+    margin-left: 0;
+    line-height: 1rem;
+    margin: 2% auto 0;
+  }
+  
+  h1 {
+    margin-left: 2%;
+    font-size: 1.6rem;
+    line-height: 2rem;
+  }
+  
+  .list {
+    margin-left: 10%;
+    font-size: 0.8rem;
+  }
+  
+  .header-right {
+    display: none;
+  }
+  
+  .mainVisual img {
+    height: 600px;
+  }
+  
+  .mainVisual-text {
+    position: absolute;
+    top: 18%;
+    left: 4%;
+  }
+  .mainVisual {
+    width: 100%;
+  }
+  .mainVisual-text p {
+    width: 78%;
+    font-size: 0.6rem;
+    letter-spacing: 0.1rem;
+  }
+  
+  .mainVisual-text h2 {
+    line-height: 1.6rem;
+    letter-spacing: 0.2rem;
+    font-size: 1.1rem;
+    width: 86%;
+  }
+  
+  .news-list {
+    margin: 10% auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .list1 {
+    line-height: 1rem;
+  }
+  
+  .border {
+    border-left: 0;
+    padding-left: 2%;
+    margin-top: 8%;
+  }
+  
+  .about-container {
+    width: 100%;
+    margin: 0 auto 14%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .about-left {
+    width: 100%;
+  }
+  
+  .about-left img {
+    object-fit: cover;
+    height: 300px;
+  }
+  
+  .about-right {
+    margin-left: 2%;
+    margin-top: 12%;
+  }
+  
+  .about-text-container {
+    margin-top: 10%;
+  }
+  
+  .about-text1 {
+    line-height: 1.6rem;
+  }
+  
+  .business-container {
+    margin: 0 auto 2%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .business-img {
+    height: 232px;
+  }
+  
+  .business-img img {
+    width: 343px;
+  }
+  
+  .business-left1,.business-right1,
+  .business-left2,.business-right2 {
+    margin-bottom: 4%;
+  }
+  .business-left2,.business-right2 {
+    margin-top: 4%;
+  }
+
+  #company {
+    width: 96%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .company-left {
+    padding: 10% 2% 4% 14%;
+    margin: 0 auto;
+    background-color: #fff;
+    width: 100%;
+  }
+  
+  .company-right {
+    position: absolute;
+    top: 560px;
+    left: 0;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .company-right img {
+    object-fit: cover;
+    height: 400px;
+  }
+  
+  footer {
+    margin-top: 424px;
+  }
+  
+  .footer-container {
+    display: flex;
+    padding: 10% 2% 4%;
+    justify-content: space-between;
+  }
+  
+  .footer-left p:nth-child(1){
+    font-size: 1.6rem;
+    margin-bottom: 14%;
+  }
+
+}
