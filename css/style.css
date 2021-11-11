@@ -1,0 +1,302 @@
+@charset "utf-8";
+
+body {
+  font-size: 16px;
+  font-family: 'メイリオ', 'Meiryo','ＭＳ ゴシック','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+  background-color: rgb(242, 242, 245);
+}
+
+*, *::before, *::after {
+  box-sizing:border-box;
+}
+.clearfix::after {
+  content:'';
+  display:block;
+  clear:both;
+}
+
+img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+header,main,footer,.mainVisual {
+  width: 100%;
+}
+
+#news,#business,#company {
+  width: 1000px;
+  margin: 8% auto;
+}
+
+header {
+  height: 76px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+.header-left {
+  display: flex;
+}
+
+.header-left-menu {
+  margin-left: 10%;
+  line-height: 76px;
+}
+
+.menu-list {
+  display: flex;
+}
+
+h1 {
+  letter-spacing: 0.4rem;
+  margin-left: 46%;
+  line-height: 76px;
+  font-weight: 500;
+  font-size: 2.2rem;
+}
+
+.list {
+  margin-left: 16%;
+  font-size: 0.9rem;
+}
+
+.list a {
+  color: #000;
+}
+
+.header-right {
+  line-height: 76px;
+}
+
+.header-right a{
+  width: 200px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.mainVisual img {
+  object-fit: cover;
+  height: 650px;
+  position: relative;
+}
+
+h2 {
+  line-height: 2rem;
+  font-size: 2.1rem;
+  letter-spacing: 0.5rem;
+  padding-bottom: 2%;
+  position: relative;
+}
+
+.mainVisual-text {
+  position: absolute;
+  top: 14%;
+  left: 10%;
+}
+
+.mainVisual-text p {
+  width: 76%;
+  font-size: 0.9rem;
+  margin-bottom: 2%;
+  color: #000;
+  font-weight: 600;
+  background-color: #fff;
+  padding: 2% 0% 2% 2%;
+  letter-spacing: 0.1rem;
+}
+.news-text,.about-text,.business-text {
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
+}
+
+.mainVisual-text h2 {
+  line-height: 2.6rem;
+  letter-spacing: 0.2rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  width: 110%;
+  background-color: #000;
+  color: #fff;
+  padding: 2% 0% 2% 2%;
+}
+
+h2:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: inline-block;
+  width: 40px;
+  height: 1px;
+  background-color: black;
+}
+
+.news-list {
+  margin: 6% auto 4%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list1 {
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+  padding: 1% 2%;
+}
+
+.news-tug {
+  background-color: #000;
+  color: #fff;
+  font-size: 0.8rem;
+  padding: 0 2%;
+  margin: 4%;
+}
+
+.border {
+  border-left: 1px solid #000;
+  padding-left: 2%;
+}
+
+.about-container {
+  display: flex;
+}
+
+.about-left {
+  width: 60%;
+  height: auto;
+}
+
+.about-left img {
+  object-fit: cover;
+  height: 76%;
+}
+
+.about-right {
+  margin-left: 6%;
+  margin-top: 12%;
+}
+
+.about-text-container {
+  margin-top: 6%;
+}
+
+.about-text1 {
+  font-size: 0.9rem;
+  margin-bottom: 1%;
+  line-height: 1.8rem;
+}
+
+.business-container {
+  margin: 6% auto 4%;
+  display: flex;
+  justify-content: space-around;
+  letter-spacing: 0.1rem;
+  width: 87%;
+}
+
+.business-img {
+  overflow: hidden;
+  height: 232px;
+}
+
+.business-img img {
+  object-fit: cover;
+  width: 368px;
+}
+
+.business-title {
+  font-weight: 600;
+  font-size: 0.8rem;
+  margin-bottom: 4%;
+}
+
+.business-left2,.business-right2 {
+  margin-top: 20%;
+}
+
+.business-container-left {
+  margin-top: 12%;
+}
+
+#company {
+  display: flex;
+  position: relative;
+}
+
+.company-left {
+  padding: 10% 6%;
+  background-color: #fff;
+  width: 54%;
+}
+
+.company-right {
+  overflow: hidden;
+  width: 55%;
+  position: absolute;
+  top: 20%;
+  left: 46%;
+}
+
+.company-right img {
+  object-fit: cover;
+  height: 400px;
+}
+
+dl {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0.9rem;
+  margin-top: 10%;
+}
+
+dt {
+  margin-right: 2%;
+  width: 24%;
+}
+
+dd {
+  width: 60%;
+}
+
+dt,dd {
+  line-height: 2rem;
+}
+
+footer {
+  width: 100%;
+  background-color: #fff;
+}
+
+.footer-container {
+  display: flex;
+  padding: 3% 17% 2%;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.footer-left p:nth-child(1){
+  letter-spacing: 0.4rem;
+  line-height: 76px;
+  font-weight: 500;
+  font-size: 2.2rem;
+  margin-top: 12%;
+  margin-bottom: 50%;
+}
+
+.footer-left p:nth-child(2) {
+  font-size: 0.3rem;
+}
+
+.footer-right p {
+  line-height: 1.4rem;
+  font-size: 0.9rem;
+}
